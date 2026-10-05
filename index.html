@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Haven Guesthouse | Boutique Stay in Karachi</title>
+<meta name="description" content="Book a comfortable boutique stay at The Haven Guesthouse, Karachi. Rooms, suites and family rooms with breakfast included.">
+<meta property="og:title" content="The Haven Guesthouse"><meta property="og:description" content="Your comfortable stay, away from home.">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/responsive.css"></head>
+<body>
+<header class="nav" id="nav"><div class="wrap bar">
+<a class="logo" href="#top">The <b>Haven</b></a>
+<button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+<nav id="menu" aria-label="Main"><a href="#rooms">Rooms</a><a href="#offers">Offers</a><a href="amenities.html">Amenities</a><a href="gallery.html">Gallery</a><a href="dining.html">Dining</a><a href="attractions.html">Things To Do</a><a href="faq.html">FAQ</a><a href="#mybooking">My Booking</a><a href="#contact">Contact</a><a class="btn sm" href="#rooms">Book Now</a></nav>
+</div></header>
+<main id="top">
+<section class="hero"><div class="wrap">
+<p class="eyebrow">Welcome to the Haven</p>
+<h1>Your comfortable stay,<br>away from home.</h1>
+<p class="lead">A quiet boutique guesthouse in Karachi with warm rooms, a leafy garden and breakfast made fresh every morning.</p>
+<div class="row"><a class="btn" href="#rooms">Explore Rooms</a><a class="btn ghost" href="#search">Book Your Stay</a></div>
+</div>
+<form class="search wrap" id="search" novalidate aria-label="Check availability">
+<label>Check-in<input type="date" id="ci" required></label>
+<label>Check-out<input type="date" id="co" required></label>
+<label>Adults<input type="number" id="ad" min="1" max="8" value="2"></label>
+<label>Children<input type="number" id="ch" min="0" max="6" value="0"></label>
+<label>Rooms<input type="number" id="rm" min="1" max="4" value="1"></label>
+<button class="btn" type="submit">Check Availability</button>
+<p class="err" id="serr" role="alert"></p>
+</form></section>
+
+<section id="rooms" class="sec wrap"><h2>Rooms &amp; Suites</h2><p class="sub" id="availnote">Choose from our hand-finished rooms. Every stay includes Wi-Fi and breakfast.</p>
+<div class="filters">
+<label>Type<select id="fType"><option value="">All</option><option>Deluxe</option><option>Suite</option><option>Family</option><option>Standard</option></select></label>
+<label>Max price<select id="fPrice"><option value="0">Any</option><option value="10000">PKR 10,000</option><option value="15000">PKR 15,000</option><option value="20000">PKR 20,000</option></select></label>
+<label>Guests<select id="fGuests"><option value="1">Any</option><option value="2">2+</option><option value="4">4+</option></select></label>
+<label>Sort<select id="fSort"><option value="rec">Recommended</option><option value="lo">Price low → high</option><option value="hi">Price high → low</option><option value="rate">Highest rated</option></select></label>
+</div><div class="grid" id="roomGrid"></div></section>
+
+<section id="offers" class="sec alt"><div class="wrap"><h2>Special Offers</h2><div class="grid" id="offerGrid"></div></div></section>
+
+<section id="amenities" class="sec wrap"><h2>Everything you need</h2><ul class="amen">
+<li>📶 Free Wi-Fi</li><li>🍳 Breakfast</li><li>🅿️ Parking</li><li>❄️ Air Conditioning</li><li>🧹 Housekeeping</li><li>🛎️ 24/7 Reception</li><li>✈️ Airport Transfer</li><li>🔒 Security</li></ul></section>
+
+<section id="mybooking" class="sec alt"><div class="wrap narrow"><h2>My Booking</h2>
+<form id="findForm" class="card"><label>Booking reference<input id="fRef" placeholder="HVN-2026-48291" required></label>
+<label>Email<input id="fEmail" type="email" required></label><button class="btn" type="submit">Find Booking</button></form>
+<div id="found"></div></div></section>
+
+<section id="contact" class="sec wrap narrow"><h2>Contact</h2>
+<form id="contactForm" class="card" novalidate><label>Name<input id="cName" required></label><label>Email<input id="cEmail" type="email" required></label>
+<label>Message<textarea id="cMsg" rows="4" required></textarea></label><p class="err" id="cerr" role="alert"></p><button class="btn" type="submit">Send Message</button></form></section>
+</main>
+<footer><div class="wrap"><b>THE HAVEN GUESTHOUSE</b><p>Karachi, Pakistan · +92 300 1234567 · stay@havenguesthouse.com</p><p><a href="admin/login.html" style="color:#e4cc9c">Admin demo</a></p><p>© 2026 The Haven Guesthouse. All rights reserved.</p></div></footer>
+<a class="wa" id="wa" href="#" aria-label="Chat on WhatsApp">WhatsApp</a>
+<div class="modal" id="modal" role="dialog" aria-modal="true" hidden><div class="box"><button class="x" id="mx" aria-label="Close">×</button><div id="mbody"></div></div></div>
+<div id="toasts" aria-live="polite"></div>
+<script src="js/data.js"></script><script src="js/main.js"></script></body></html>

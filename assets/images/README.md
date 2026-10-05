@@ -1,0 +1,40 @@
+# Photos
+
+1. Add JPGs (about 1600px wide, under 300 KB each) using these names, then set USE_PHOTOS=true at the bottom of js/data.js.
+2. Use photos you own or that are licensed for commercial use (client photos, or Unsplash/Pexels with their licence).
+3. Any missing file simply falls back to the gradient.
+
+- hero.jpg
+- room-1.jpg (rooms in js/data.js order; new admin rooms use room-<id>.jpg)
+- room-2.jpg (rooms in js/data.js order; new admin rooms use room-<id>.jpg)
+- room-3.jpg (rooms in js/data.js order; new admin rooms use room-<id>.jpg)
+- room-4.jpg (rooms in js/data.js order; new admin rooms use room-<id>.jpg)
+- room-5.jpg (rooms in js/data.js order; new admin rooms use room-<id>.jpg)
+- gallery-1.jpg (order in GALLERY, js/content.js)
+- gallery-2.jpg (order in GALLERY, js/content.js)
+- gallery-3.jpg (order in GALLERY, js/content.js)
+- gallery-4.jpg (order in GALLERY, js/content.js)
+- gallery-5.jpg (order in GALLERY, js/content.js)
+- gallery-6.jpg (order in GALLERY, js/content.js)
+- gallery-7.jpg (order in GALLERY, js/content.js)
+- gallery-8.jpg (order in GALLERY, js/content.js)
+- gallery-9.jpg (order in GALLERY, js/content.js)
+- gallery-10.jpg (order in GALLERY, js/content.js)
+- gallery-11.jpg (order in GALLERY, js/content.js)
+- gallery-12.jpg (order in GALLERY, js/content.js)
+- dish-1.jpg (order in MENU)
+- dish-2.jpg (order in MENU)
+- dish-3.jpg (order in MENU)
+- dish-4.jpg (order in MENU)
+- dish-5.jpg (order in MENU)
+- dish-6.jpg (order in MENU)
+- dish-7.jpg (order in MENU)
+- dish-8.jpg (order in MENU)
+- dish-9.jpg (order in MENU)
+- dish-10.jpg (order in MENU)
+- attraction-1.jpg (order in ATTR)
+- attraction-2.jpg (order in ATTR)
+- attraction-3.jpg (order in ATTR)
+- attraction-4.jpg (order in ATTR)
+- attraction-5.jpg (order in ATTR)
+- attraction-6.jpg (order in ATTR)
